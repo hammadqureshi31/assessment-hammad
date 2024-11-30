@@ -30,7 +30,7 @@ const Footer = () => {
   const moreCountries = ["China", "India", "South Korea"];
 
   return (
-    <footer className="relative bg-gradient-to-b from-blue-600 to-blue-800 text-white py-10 px-6">
+    <footer className="relative bg-gradient-to-b  to-transparent from-blue-800 text-white py-10 px-6">
       {/* Background Vector */}
       <div
         className="absolute inset-0 -z-10"
@@ -121,6 +121,8 @@ const Footer = () => {
         </div>
         <p>&copy; 2024 College Mastermind. All rights reserved.</p>
       </div>
+
+      <img src="./VectorFooter.png" alt="" className="absolute bottom-0 z-10"/>
     </footer>
   );
 };
