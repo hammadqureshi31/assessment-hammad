@@ -5,7 +5,7 @@ const FirstSection = () => {
   return (
     <div className="relative w-screen h-screen bg-blue-500 overflow-hidden">
       {/* Absolute Text and Button Container */}
-      <div className="absolute bg-transparent pt-40 px-10 bg-gradient-to-r to-blue-100 from-blue-800 h-screen w-1/2  top-10  md:top-16  space-y-4">
+      <div className="absolute pt-40 px-10 bg-gradient-to-r  to-transparent from-blue-800 h-screen w-1/2  top-10  md:top-16  space-y-4">
         
         <h1 className="text-3xl md:text-5xl font-semibold text-white leading-tight">
           Innovative Education Solution
