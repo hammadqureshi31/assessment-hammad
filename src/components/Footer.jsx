@@ -35,7 +35,7 @@ const Footer = () => {
       <div
         className="absolute inset-0 -z-10"
         style={{
-          backgroundImage: `url('/path-to-your-uploaded-image.png')`, // Replace with actual image path
+          backgroundImage: "./VectorFooter.png",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
         }}
@@ -121,8 +121,6 @@ const Footer = () => {
         </div>
         <p>&copy; 2024 College Mastermind. All rights reserved.</p>
       </div>
-
-      <img src="./VectorFooter.png" alt="" className="absolute bottom-0 z-10"/>
     </footer>
   );
 };
