@@ -41,7 +41,7 @@ const Footer = () => {
         }}
       ></div>
 
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-6 z-30">
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-6 z-50">
         {/* Quick Links */}
         <div>
           <h2 className="font-bold text-lg mb-4">Quick Links</h2>
